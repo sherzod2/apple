@@ -1,0 +1,41 @@
+.info-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-left: -20px;
+}
+
+.info-item + .info-item {
+    margin-left: 60px;
+}
+
+.info-item__header {
+    font-size: 24px;
+}
+
+.info-item__desc {
+    width: 350px;
+}
+
+.info-item__span {
+    font-size: 38px;
+    opacity: 0.7;
+}
+
+.info-item__link {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(155, 41, 41);
+    text-transform: uppercase;
+}
+
+.info-item__diveder {
+    vertical-align: middle;
+   display: inline-block;
+   width: 40px;
+   height: 2px;
+   background-color: rgb(155, 41, 41);
+   margin-right: 10px;
+}
