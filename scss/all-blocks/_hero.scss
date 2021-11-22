@@ -1,0 +1,32 @@
+
+.site-hero{
+    background-image: url("../images/watches.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: top 100px left 1100px;
+}
+
+.hero{
+    padding: 150px 0;
+}
+
+.hero__title {
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 48px;
+    color: #000;
+  }
+
+  .hero__desc{
+    border-left: 2px solid rgb(146, 135, 135);
+    padding: 0 40px;
+    margin-bottom: 25px;
+  }
+
+  .hero__desc-p{
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    color: #000;
+    opacity: 0.5;
+  }
